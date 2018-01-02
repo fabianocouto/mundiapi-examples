@@ -1,0 +1,6 @@
+{
+    "require": {
+        "mundipagg/mundiapi": "^3.0",
+        "guzzlehttp/guzzle": "^6.3"
+    }
+}
