@@ -1,6 +1,6 @@
 <?php
 
-const BASIC_AUTH_USER = 'sk_test_id';
+const BASIC_AUTH_USER = null;
 const BASIC_AUTH_PASS = null;
 
 if (!is_dir(dirname(__FILE__) . '/../vendor')) {

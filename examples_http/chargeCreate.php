@@ -57,7 +57,7 @@ try {
         'exp_year'    => '2021',
         'cvv'         => '038',
         'metadata'    => [
-            'card_attr' => 'data-edt'
+            'card_attr' => 'data'
         ]
     ];
 
@@ -71,10 +71,27 @@ try {
     $payment = [
         'payment_method' => 'credit_card',
         'credit_card'    => $creditCardPayment,
-        // 'metadata'       => [
-        //     'payment_attr' => 'data'
-        // ]
+        'metadata'       => [
+            'payment_attr' => 'data'
+        ]
     ];
+
+    // $bankSlip = [
+    //     'bank' => 341,
+    //     'instructions' => 'Favor, não receber após o vencimento.',
+    //     'due_at'       => date('Y-m-d', strtotime('+5 days')),
+    //     'metadata'     => [
+    //         'bank_slip_attr' => 'data',
+    //     ]
+    // ];
+
+    // $payment = [
+    //     'payment_method' => 'boleto',
+    //     'boleto'         => $bankSlip,
+    //     'metadata'       => [
+    //         'payment_attr' => 'data'
+    //     ]
+    // ];
 
     $request = [
         'code'      => 'CHARGE_INTEGRATION_CODE',
