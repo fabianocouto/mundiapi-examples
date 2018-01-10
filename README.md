@@ -1,6 +1,6 @@
 # Mundipagg API Examples (PHP)
 
-This repo contains some examples of requests to Mundipagg API, using PHP SDK and Guzzle PHP HTTP Client.
+Examples of requests to Mundipagg API, using PHP SDK and Guzzle PHP HTTP Client.
 
 ## Dependencies
 
